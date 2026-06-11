@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helloworld"
+version = "0.1.2"
+description = "A Miasma-infected Python package"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Cookie Engineer", email = "admin@example.com" }
+]
+license = { text = "MIT" }
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+helloworld = ["helloworld-setup.pth"]

