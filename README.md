@@ -16,6 +16,7 @@ showing how exactly the implant dropper mechanisms change over time.
 - [01-blight-campaign](./01-blight-campaign) "Miasma" campaign sample, targeting Node.js (NPM) and AI-assisted IDEs
 - [02-hades-campaign](./02-hades-campaign) "Hades" campaign sample, targeting Python (PyPi)
 - [03-hades-campaign](./03-hades-campaign) "Hades" campaign sample, targeting PHP (Composer)
+- [04-atomic-campaign](./04-atomic-campaign) "Atomic Arch" campaign sample, targeting AUR and Pacman
 
 
 This repository is used as a true positive test case for the
